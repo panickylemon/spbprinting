@@ -302,3 +302,56 @@ header {
     font-size: 32px;
     margin: 0;
 }
+
+.l-variety-services{
+    width: 100%;
+    margin: auto;
+}
+
+.b-variety-services{
+    color: #34495e;
+}
+
+.l-variety-services__item{
+    float: left;
+    width: 16.6666667%;
+}
+
+.b-variety-services__item{
+    position: relative;
+    width: 174px;
+}
+
+.b-variety-services__icon{
+    border: 13px solid rgba(52, 73, 94, 0.55);
+    width: 174px;
+    height: 174px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.b-variety-services__title{
+    margin: 7px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #34495e;
+}
+
+.b-variety-services__link{
+    text-decoration: none;
+}
+
+.b-variety-services__link:hover{
+    text-decoration: none;
+}
+
+.b-offset-icon{
+    background: white url("../image/base/ofset-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+
+}
+
+.b-offset-link:hover .b-offset-icon{
+    background: #ffffff url("../image/base/ofset-icon-hover.png") no-repeat center;
+}
