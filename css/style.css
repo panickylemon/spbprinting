@@ -278,7 +278,7 @@ header {
 
 .l-top-block-title{
     position: relative;
-    height: 520px;
+    height: 490px;
 }
 
 .b-top-block-title{
@@ -320,6 +320,7 @@ header {
 .b-variety-services__item{
     position: relative;
     width: 174px;
+    margin: auto;
 }
 
 .b-variety-services__icon{
@@ -331,7 +332,7 @@ header {
 }
 
 .b-variety-services__title{
-    margin: 7px 0 0;
+    margin: 5px 0 0;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -339,6 +340,8 @@ header {
 }
 
 .b-variety-services__link{
+    display: inline-block;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -346,11 +349,60 @@ header {
     text-decoration: none;
 }
 
+
+/* services icon */
+
 .b-offset-icon{
-    background: white url("../image/base/ofset-icon.png") no-repeat center;
-    transition: background 0.7s ease;
-}
+     background: white url("../image/base/ofset-icon.png") no-repeat center;
+     transition: background 0.7s ease;
+ }
 
 .b-offset-link:hover .b-offset-icon{
     background: #ffffff url("../image/base/ofset-icon-hover.png") no-repeat center;
 }
+
+.b-digital-icon{
+    background: white url("../image/base/digital-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+}
+
+.b-digital-link:hover .b-digital-icon{
+    background: #ffffff url("../image/base/digital-icon-hover.png") no-repeat center;
+}
+
+.b-risography-icon{
+    background: white url("../image/base/risography-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+}
+
+.b-risography-link:hover .b-risography-icon{
+    background: #ffffff url("../image/base/risography-icon-hover.png") no-repeat center;
+}
+
+.b-binding-icon{
+    background: white url("../image/base/binding-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+}
+
+.b-binding-link:hover .b-binding-icon{
+    background: #ffffff url("../image/base/binding-icon-hover.png") no-repeat center;
+}
+
+.b-stamping-icon{
+    background: white url("../image/base/stamping-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+}
+
+.b-stamping-link:hover .b-stamping-icon{
+    background: #ffffff url("../image/base/stamping-icon-hover.png") no-repeat center;
+}
+
+.b-booklet-icon{
+    background: white url("../image/base/booklet-icon.png") no-repeat center;
+    transition: background 0.7s ease;
+}
+
+.b-booklet-link:hover .b-booklet-icon{
+    background: #ffffff url("../image/base/booklet-icon-hover.png") no-repeat center;
+}
+/* end services icon */
