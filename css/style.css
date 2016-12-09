@@ -349,7 +349,6 @@ header {
 .b-offset-icon{
     background: white url("../image/base/ofset-icon.png") no-repeat center;
     transition: background 0.7s ease;
-
 }
 
 .b-offset-link:hover .b-offset-icon{
