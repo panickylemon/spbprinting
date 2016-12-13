@@ -270,7 +270,7 @@ header {
 /*background: #e67e22;*/
 /*}*/
 
-.dropdown:hover .dropdown-menu {
+.b-main-menu .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
 }
@@ -279,7 +279,6 @@ header {
     text-decoration: none;
     color: #e67e22;
 }
-
 
 .dropdown-menu{
     border-radius: 0;
@@ -725,11 +724,33 @@ footer {
 }
 
 .b-services-menu__title{
-    height: 40px;
-    line-height: 40px;
+    margin: 0;
+    padding:12px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #ffffff;
     background: #e67e22;
+}
+
+.b-services-menu__item{
+    width: 100%;
+    padding: 8px 15px;
+    list-style: none;
+    border-bottom: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+
+.b-services-menu__link{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #161616;
+
+}
+
+.b-services-menu__link:hover{
+    text-decoration: none;
+    color: #161616;
 }
