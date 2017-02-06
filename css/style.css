@@ -114,6 +114,10 @@ a:hover, a:active {
     outline: 0;
 }
 
+a:focus{
+    text-decoration: none;
+}
+
 .image_hover {
     position: absolute;
 }
@@ -295,16 +299,6 @@ header {
     color: #161616;
 }
 
-/*.b-main-menu__link--active:after {*/
-/*content: '';*/
-/*display: block;*/
-/*position: absolute;*/
-/*right: 0;*/
-/*bottom: 0;*/
-/*height: 3px;*/
-/*width: 100%;*/
-/*background: #e67e22;*/
-/*}*/
 
 .b-main-menu .dropdown:hover .dropdown-menu {
     display: block;
@@ -716,7 +710,12 @@ footer {
 
 .b-advantages-block {
     width: 100%;
-    background: url("../image/base/advantages-bg.png") no-repeat center top;
+    /*background: url("../image/base/advantages-bg.png") no-repeat center top;*/
+    background: url("../image/base/brochure-group-2.png") no-repeat center;
+}
+
+.b-advantages-content{
+    margin: 20px 0 60px;
 }
 
 .b-subtitle-main {
@@ -786,10 +785,11 @@ footer {
     margin-bottom: 70px;
     font-size: 16px;
     color: #161616;
+    line-height: 1.6;
 }
 
 .l-work-carousel {
-    padding-bottom: 80px;
+    padding: 20px 0 120px;
 }
 
 .b-work-carousel {
@@ -813,6 +813,27 @@ footer {
 .owl-next {
     right: 0;
     background-position: right;
+}
+
+.b-home-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.services-block .b-home-text {
+    margin: 40px 0 0;
+}
+
+.b-about-text .b-subtitle-main{
+    padding: 70px 0 55px;
+}
+
+.b-our-work{
+    /*background: #f2f2f2;*/
+}
+
+.b-our-work .b-home-text{
+    margin: -20px 0 0;
 }
 
 /*services page*/
