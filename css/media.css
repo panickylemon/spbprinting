@@ -570,7 +570,7 @@
 	/*display: none;*/
 	/*}*/
 
-	.owl-carousel .owl-stage-outer{
+	.b-work-carousel .owl-stage-outer{
 		margin: 0 20px;
 	}
 
@@ -594,6 +594,10 @@
 	.l-top-panel {
 		height: 36px;
 		line-height: 36px;
+	}
+
+	.l-work-carousel, .l-clients-carousel {
+		padding: 20px 0 80px;
 	}
 }
 

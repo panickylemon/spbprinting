@@ -544,11 +544,12 @@ footer {
     text-decoration: none;
 }
 
+
 /* services icon */
 
 .b-offset-icon {
     background: white url("../image/base/ofset-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-offset-link:hover .b-offset-icon {
@@ -557,7 +558,7 @@ footer {
 
 .b-digital-icon {
     background: white url("../image/base/digital-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-digital-link:hover .b-digital-icon {
@@ -566,7 +567,7 @@ footer {
 
 .b-risography-icon {
     background: white url("../image/base/risography-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-risography-link:hover .b-risography-icon {
@@ -575,7 +576,7 @@ footer {
 
 .b-binding-icon {
     background: white url("../image/base/binding-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-binding-link:hover .b-binding-icon {
@@ -584,7 +585,7 @@ footer {
 
 .b-stamping-icon {
     background: white url("../image/base/stamping-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-stamping-link:hover .b-stamping-icon {
@@ -593,7 +594,7 @@ footer {
 
 .b-booklet-icon {
     background: white url("../image/base/booklet-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-booklet-link:hover .b-booklet-icon {
@@ -602,7 +603,7 @@ footer {
 
 .b-leaflets-icon {
     background: white url("../image/base/leaflets-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-leaflets-link:hover .b-leaflets-icon {
@@ -611,7 +612,7 @@ footer {
 
 .b-forms-icon {
     background: white url("../image/base/forms-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-forms-link:hover .b-forms-icon {
@@ -620,7 +621,7 @@ footer {
 
 .b-book-icon {
     background: white url("../image/base/book-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-book-link:hover .b-book-icon {
@@ -629,7 +630,7 @@ footer {
 
 .b-catalog-icon {
     background: white url("../image/base/catalog-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-catalog-link:hover .b-catalog-icon {
@@ -638,7 +639,7 @@ footer {
 
 .b-diploma-icon {
     background: white url("../image/base/diploma.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-diploma-link:hover .b-diploma-icon {
@@ -647,7 +648,7 @@ footer {
 
 .b-calendar-icon {
     background: white url("../image/base/calendar-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-calendar-link:hover .b-calendar-icon {
@@ -656,7 +657,7 @@ footer {
 
 .b-cutaway-icon {
     background: white url("../image/base/cutaway-icon.png") no-repeat center;
-    transition: background 0.7s ease;
+    /*transition: background 0.7s ease;*/
 }
 
 .b-cutaway-link:hover .b-cutaway-icon {
@@ -720,7 +721,7 @@ footer {
 
 .b-subtitle-main {
     margin: 0;
-    padding: 70px 0 75px;
+    padding: 65px 0 65px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     text-align: center;
@@ -788,11 +789,11 @@ footer {
     line-height: 1.6;
 }
 
-.l-work-carousel {
+.l-work-carousel, .l-clients-carousel {
     padding: 20px 0 120px;
 }
 
-.b-work-carousel {
+.b-work-carousel, .b-clients-carousel {
     position: relative;
     padding: 0 40px;
 }
@@ -828,12 +829,114 @@ footer {
     padding: 70px 0 55px;
 }
 
-.b-our-work{
-    /*background: #f2f2f2;*/
-}
 
 .b-our-work .b-home-text{
     margin: -20px 0 0;
+}
+
+.b-our-work{
+    background: #f2f2f2;
+}
+
+
+.b-clients__img{
+    width: 220px;
+    height: 185px;
+    display: inline-block;
+    border: 1px solid #dedede;;
+}
+
+.b-clients-carousel__item{
+    text-align: center;
+}
+
+
+.b-clients-carousel__item p{
+    color: #34495e;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px auto;
+    font-size: 15px;
+}
+
+.b-clients-carousel__item:hover a{
+    text-decoration: none;
+}
+
+.l-clients-carousel .owl-prev, .l-clients-carousel .owl-next{
+    top: 25%;
+}
+
+.vma{
+    background: url("../image/clients/vma-2.png") no-repeat center;
+}
+
+.vma:hover{
+    background: url("../image/clients/vma.png") no-repeat center;
+}
+
+.spbgu{
+    background: url("../image/clients/spbgu-2.png") no-repeat center;
+}
+
+.spbgu:hover{
+    background: url("../image/clients/spbgu.png") no-repeat center;
+}
+
+.spbgup{
+    background: url("../image/clients/spbgup-2.jpg") no-repeat center;
+}
+
+.spbgup:hover{
+    background: url("../image/clients/spbgup.jpg") no-repeat center;
+}
+
+.adm{
+    background: url("../image/clients/adm-2.png") no-repeat center;
+}
+
+.adm:hover{
+    background: url("../image/clients/adm.png") no-repeat center;
+}
+
+.rzhd{
+    background: url("../image/clients/rzhd-2.jpg") no-repeat center;
+}
+
+.rzhd:hover{
+    background: url("../image/clients/rzhd.jpg") no-repeat center;
+}
+
+.gidro{
+    background: url("../image/clients/gidro-2.png") no-repeat center;
+}
+
+.gidro:hover{
+    background: url("../image/clients/gidro.png") no-repeat center;
+}
+
+.svetoch{
+    background: url("../image/clients/svetoch-2.png") no-repeat center;
+}
+
+.svetoch:hover{
+    background: url("../image/clients/svetoch.png") no-repeat center;
+}
+
+.auc{
+    background: url("../image/clients/auc-2.png") no-repeat center;
+}
+
+.auc:hover{
+    background: url("../image/clients/auc.png") no-repeat center;
+}
+
+.svoe{
+    background: url("../image/clients/svoe-2.png") no-repeat center;
+}
+
+.svoe:hover{
+    background: url("../image/clients/svoe.jpg") no-repeat center;
 }
 
 /*services page*/
@@ -1148,3 +1251,5 @@ footer {
 .b-form-feedback .b-button-application {
     margin-top: 10px !important;
 }
+
+
